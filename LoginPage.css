@@ -1,0 +1,119 @@
+*::after,
+*::before,
+*,
+html,
+body,
+div,
+span {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+body {
+  position: relative;
+  background-image: linear-gradient(
+    to bottom left,
+    #522b2c,
+    #eaeaea,
+    #522b2c,
+    #3b3b3b,
+    #9d7b72,
+    #6a6263,
+    #debfb7,
+    #ad9095,
+    #614c4b,
+    #532c2d
+  );
+}
+
+.icon-area {
+  width: 16%;
+  height: 100%;
+  float: left;
+  border: 1px solid black;
+  margin-left: 2vw;
+}
+
+.form {
+  position: absolute;
+  width: 30%;
+  height: 30vh;
+  top: 18.5vh;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  background-color: white;
+}
+
+.icon {
+  display: block;
+  width: 100%;
+  height: 50%;
+  font-size: 40px;
+  padding-top: 25%;
+  text-align: center;
+  color: white;
+  background-color: #343434;
+}
+.icon span {
+  display: block;
+  width: 50%;
+  height: 50%;
+  border: 1px solid black;
+  margin-top: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-area {
+  padding-left: 8.5vw;
+}
+input {
+  width: 90%;
+  height: 4.5vh;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+  background-color: transparent;
+}
+.button {
+  display: block;
+  text-decoration: none;
+  width: 90%;
+  height: 4vh;
+  border-radius: 5px;
+  padding: 4px;
+  background-color: gold;
+  color: white;
+  margin-top: 1.5vh;
+  font-weight: 600;
+  font-size: 13.8px;
+  text-align: center;
+  color: black;
+}
+.login-area h1,
+input {
+  margin-top: 4px;
+}
+h1,
+input {
+  color: black;
+}
+h1 {
+  letter-spacing: 0.8px;
+  text-align: center;
+}
+.icon i {
+  color: black;
+}
+.icon i:hover {
+  color: white;
+}

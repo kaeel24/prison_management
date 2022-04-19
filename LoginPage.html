@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="LoginPage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Roboto+Mono:wght@200&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="form">
+        <div class="icon-area">
+            <div class="icon" style="border-bottom: .3px solid rgba(255,255,255,.6)">
+                <a href="" class="icon1"><i class="fas fa-chalkboard-teacher"></i></a>
+            </div>
+            <div class="icon">
+                <a href="" class="icon2"><i class="fas fa-user"></i></a>
+            </div>
+        </div>
+        <div class="login-area">
+            <h1 id="changeTitle">INSTRUCTOR LOGIN</h1>
+            <div>
+                <i></i>
+                <input type="text" placeholder="User ID">
+            </div>
+            <div>
+                <i></i>
+                <input type="password" placeholder="Password">
+            </div>
+            <a href="" class="button">LOGIN</a>
+        </div>
+    </div>
+    <script>
+        var x = document.getElementsByClassName("icon2")[0];
+        x.addEventListener("click", studentButton, false);
+        function studentButton() {
+            var ch = document.getElementsByClassName("login-area")[0].innerText = "STUDENT LOGIN";
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+*::before,
+*::after,
+*,
+body,
+html,
+div,
+span,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+body {
+  width: 98vw;
+  height: auto;
+  background-size: cover;
+}
+#box {
+  width: 23vw;
+  height: 32vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 28vh;
+  background: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  border-radius: 10px;
+  padding: 1%;
+}
+label {
+  font-weight: bold;
+}
+#submit {
+  padding: 4px 16px;
+  border-radius: 25px;
+  border-style: none;
+  color: black;
+  border: 1px solid black;
+  transition: background 0.2s ease-in-out;
+}
+#submit:hover {
+  border-radius: 25px;
+  background: black;
+  color: white;
+}
+.button:hover:not(#submit) {
+  text-decoration: underline;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+h1 {
+  font-family: "Lobster", cursive;
+  padding-bottom: 0.4rem;
+}
+.logo-container {
+  width: 100%;
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+.logo-container a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.85);
+  margin: 2.5%;
+}
+.logo-container a:hover {
+  color: black;
+}
+input {
+  margin: 0.5%;
+}
